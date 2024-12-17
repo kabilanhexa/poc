@@ -1,0 +1,48 @@
+body *{
+  box-sizing: border-box; 
+}
+
+body {
+ /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+ //  min-height: 100vh; 
+  font-family: font-regular;
+  background-color: #eef1f6;
+}
+
+iframe{
+  position: inherit!important;
+  z-index: 0!important;
+}
+
+@font-face {
+ font-family: font-light;
+ src: url("assets/fonts/averta/hinted-AvertaStd-Light.woff")format("opentype")
+}
+
+@font-face {
+ font-family: font-regular; 
+ src: url("assets/fonts/averta/hinted-AvertaStd-Regular.woff")format("opentype")
+}
+
+@font-face {
+ font-family: font-semibold;
+ src: url("assets/fonts/averta/hinted-AvertaStd-Semibold.woff")format("opentype")
+}
+
+@font-face {
+ font-family: font-bold;
+ src: url("assets/fonts/averta/hinted-AvertaStd-Bold.woff")format("opentype")
+}
+@font-face{
+ font-family:font-extrabold;
+ src:url("assets/fonts/averta/hinted-AvertaStd-Extrabold.woff")format("opentype")
+}
+@font-face {
+ font-family: icon-ifleet;
+ src: url(assets/fonts/ifleet/icon-ifleet.woff);
+ font-weight: 400;
+ font-style: normal;
+ font-display: block
+}

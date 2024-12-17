@@ -1,0 +1,17 @@
+@import url(/node_modules/boxicons/css/boxicons.min.css);
+@import '../../assets/sass/Main.scss';
+
+.icon-container {
+   height: 42px;
+   border-radius: 50%;
+   width: 42px;
+   padding: 0.06em;
+   font-size: 1.52rem;
+   text-align: center;
+   display: inline-block;
+
+   &.bordered {
+      border: 3px solid $text-black;
+   }
+}
+

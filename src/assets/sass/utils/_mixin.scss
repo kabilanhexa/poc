@@ -1,0 +1,10 @@
+@mixin inputs {
+    border-radius: 5px;
+    background-color: $gray;
+}
+
+@mixin button {
+    padding: 12px 25px;
+    font-size: 1.25rem;
+    border-radius: 25px;
+}
